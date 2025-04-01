@@ -8,7 +8,7 @@ app.use(express.json());
 app.use(cors(
     {
         origin : "https://www.dbmvidyamandir.com/",
-         methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
+         methods: [ "POST"],
          allowedHeaders: ["Content-Type", "Authorization"],
         credentials:true
     }
